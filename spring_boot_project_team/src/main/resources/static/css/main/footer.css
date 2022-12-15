@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+#inspire{
+   	width:100%;
+	height:400px;
+	text-align:center;
+	color:white;
+	background-color: skyblue;
+   
+}
+#write{
+	font-family: 'GmarketSans';
+	url:('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf');
+	width:1000px;
+	margin:0px auto;
+	padding-top : 150px;
+	font-weight:normal;
+   	font-size: 25px;
+   	line-height:40px;
+}
+#author{
+	margin-top:15px;
+	font-size: 30px;
+}
+#footerBox{
+	width:100%;
+	height:500px;
+	background-color: rgb(220, 216,212);
+	text-align:center;
+}
+.bottomMenuBox{
+	padding-top:100px;
+	width:100%;
+}
+#botttomMenuItem{
+	display: flex;
+	margin-left:25%;
+	font-size: 15px;;
+}
+#botttomMenuItem1{
+	display: flex;
+	text-align:center;
+	width:200px;
+	list-style:none;
+}
+#botttomMenuItem2{
+	display: flex;
+	text-align:center;
+	width:200px;
+	list-style:none;
+	margin-left: 80px;
+}
+#botttomMenuItem1 ul li a, #botttomMenuItem2 ul li a{
+	line-height:40px;
+	text-decoration-line: none;
+	
+}
+#botttomMenuItem1 ul li, #botttomMenuItem2 ul li{
+	margin-top: 20px;
+	list-style:none;
+}
+#botttomMenuItem3{
+	margin-left:20%;
+}
+#k2ml2{
+	margin-top: 20px;
+	width: 110px;
+    height: 26px;
+    background-color: #eee;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 15%;
+    color:darkgoldenrod;
+}
+#k2ml3{
+	width: 110px;
+    height: 26px;
+    margin-top: 20px;
+    background-color: #eee;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 15%;
+    color:darkgoldenrod;
+}
+#footerment{
+	font-family: 'GmarketSans';
+	url:('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf');
+	
+	width:1280px;
+	padding: 100px;
+	text-align: center;
+}
