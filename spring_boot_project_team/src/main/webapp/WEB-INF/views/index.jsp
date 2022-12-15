@@ -268,6 +268,7 @@
 		</section>
 		<!--  bottom -->  
 		<article id="inspire">
+		<hr>
 			<div id="write">
 				<div class="content" id="content">"I can do this all day."</div>
 				<div class="author" id="author">-Captain America-</div>
