@@ -9,7 +9,6 @@
 	</head>
 	<body>
 		<div id="wrap">
-			<h3>전체 검색 결과</h3>
 			<table border="1">
 					<c:choose>
 						<c:when test="${empty bookList}">
@@ -18,15 +17,31 @@
 							</tr>
 						</c:when>
 						<c:otherwise>
-							<c:forEach var="book" items="${bookList }">
+							<c:forEach var="bk" items="${bookList }">
+						<div id="rentalBookBox">
+							<table class="bookSearchForm">
 					            <tr>
-					               <td>${book.bookName }</td>
-					               <td>${book.bookName }</td>
-					               <td>${book.bookName }</td>
-					               <td>${book.bookName }</td>
-					               <td>${book.bookName }</td>			               
+					               <td rowspan="5" id="imgBox">
+										<img alt="이미지가 없습니다" src="<c:url value='/images/${bk.bookImg}'/>" style="width:150px; height:200px;">
+					               </td>
+					               <td><a href="<c:url value='/book/bookDetailView/${bk.bookId}'/>">제목 :${bk.bookName }</a></td>
 					            </tr>
-				        	 </c:forEach>
+					            <tr>
+					                <td>저자 / 출편사 :${bk.bookAuthor } / ${bk.bookPublish }</td>             
+					            </tr>
+					            <tr>
+					                <td>원가 / 대여료 : ${bk.bookPrice } / ${bk.rentP }</td>             
+					            </tr>
+					            <tr>
+					                <td>카테고리 : ${bk.bookctg }</td>             
+					            </tr>
+					            <tr>
+					                <td>${bk.bookDis }</td>             
+					            </tr>
+				            </table>
+			            </div>
+			            <br><hr><br>
+			        </c:forEach>
 						</c:otherwise>
 					</c:choose>
 				</table><br><br>
