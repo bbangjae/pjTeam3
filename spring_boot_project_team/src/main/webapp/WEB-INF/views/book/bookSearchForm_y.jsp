@@ -33,15 +33,16 @@
 				</form>
 			</div>
 		</div>
+		<br><br><br>
+		<hr>
+		<br>
 		<div id="bookAllList">
-				<h3>전체 대여 목록</h3>
-				
 					<c:forEach var="bk" items="${bookAllList }">
 						<div id="rentalBookBox">
-							<table border="1" class="bookSearchForm">
+							<table class="bookSearchForm">
 					            <tr>
 					               <td rowspan="5" id="imgBox">
-										<img alt="이미지가 없습니다" src="<%-- <c:url value='${bk.bookImg}'/> --%>">
+										<img alt="이미지가 없습니다" src="<c:url value='/images/${bk.bookImg}'/>" style="width:150px; height:200px;">
 					               </td>
 					               <td><a href="<c:url value='/book/bookDetailView/${bk.bookId}'/>">제목 :${bk.bookName }</a></td>
 					            </tr>
