@@ -59,7 +59,7 @@ public class BookController_y {
 	
 	// 상품 등록
 	@RequestMapping("/book/bookInsert")
-	public String bookInsert(BookInfoVO_b book, HttpSession session, Model model, mybookVO vo, BorrowVO borrow) {
+	public String bookInsert(BookInfoVO_b book, HttpSession session, Model model, mybookVO vo, BorrowVO borrow){
 		
 		String memId = (String) session.getAttribute("sid");
 		book.setMemId(memId);
@@ -84,11 +84,9 @@ public class BookController_y {
 		service.insertBook(book);
 		service.insertMyBook(vo);
 		
-		
 		return "redirect:/mypage/mypageform";
 	}
-	
-	
+
 	
 }
 
