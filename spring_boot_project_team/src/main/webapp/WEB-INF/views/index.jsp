@@ -25,7 +25,7 @@
 									<img src="image/데이터.jfif" id="mentbooklist"></a>
 				</div>
 				<div id="mentimgjava">
-					<a href="<c:url value='/book/bookDetailView/데이터'/>">
+					<a href="<c:url value='/book/bookDetailView/자바'/>">
 							<img src="image/자바.jfif" id="mentbooklist"></a>
 				</div>
 			</div>
@@ -46,7 +46,7 @@
 					<div id="bookslot">
 
 						<div id="bookslot1">
-							<a href="rentalpage/리액트.html">
+							<a href="<c:url value='#'/>">
 							<img src="image/리액트.jfif" class="booklist"></a>
 							<div id="listExplain" class="prtext">
 								<h1>
@@ -58,7 +58,7 @@
 							</div>
 						</div>
 						<div id="bookslot1">
-							<a href="rentalpage/알고리즘.html">
+							<a href="<c:url value='#'/>">
 							<img src="image/알고리즘.jfif" class="booklist"></a>
 							<div id="listExplain" class="prtext">
 								<h1>
@@ -72,7 +72,7 @@
 					</div>
 					<div id="bookslot">
 						<div id="bookslot1">
-							<a href='<c:url value="/rental/MY"/>'></a>
+							<a href='<c:url value="#"/>'></a>
 							<img src='<c:url value="/image/MYSQL.jfif"/>' class="booklist">
 							<div id="listExplain" class="prtext">
 								<h1>
@@ -141,7 +141,7 @@
 	
 							<div id="newBook">
 								<div class="listB">
-									<a href="rentalpage/리액트.html"><img src="image/리액트.jfif" class="booklist"></a>
+									<a href="<c:url value='#'/>"><img src="image/리액트.jfif" class="booklist"></a>
 									<div id="listExplain" class="prtext">
 										<h1>
 											처음 만난 리액트<br>
@@ -152,7 +152,7 @@
 									</div>
 								</div>
 								<div class="listB">
-									<a href="rentalpage/알고리즘.html"><img src="image/알고리즘.jfif" class="booklist"></a>
+									<a href="<c:url value='#'/>"><img src="image/알고리즘.jfif" class="booklist"></a>
 									<div id="listExplain" class="prtext">
 										<h1>
 											자료구조와 함께 배우는 알고리즘 입문(자바 편)<br>
@@ -164,7 +164,7 @@
 	
 								</div>
 								<div class="listB">
-									<a href="rentalpage/자바웹.html"><img src="image/자바웹.jfif" class="booklist"></a>
+									<a href="<c:url value='#'/>"><img src="image/자바웹.jfif" class="booklist"></a>
 									<div id="listExplain" class="prtext">
 	
 										<h1>
@@ -177,7 +177,7 @@
 	
 								</div>
 								<div class="listB">
-									<a href="rentalpage/자바.html"><img src="image/자바.jfif" class="booklist"></a>
+									<a href="<c:url value='#'/>"><img src="image/자바.jfif" class="booklist"></a>
 									<div id="listExplain" class="prtext">
 										<h1>
 											자바의 정석<br>
@@ -193,7 +193,7 @@
 						<div id="bookSlide">
 							<div id="bestBook">
 								<div class="listB">
-									<a href="rentalpage/미움.html"><img src="image/미움.jfif" class="booklist"></a>
+									<a href="<c:url value='#'/>"><img src="image/미움.jfif" class="booklist"></a>
 									<div id="listExplain" class="prtext">
 										<h1>
 											미움받을 용기<br>
@@ -204,7 +204,7 @@
 									</div>
 								</div>
 								<div class="listB">
-									<a href="rentalpage/MY.html"><img src="image/MYSQL.jfif" class="booklist"></a>
+									<a href="<c:url value='#'/>"><img src="image/MYSQL.jfif" class="booklist"></a>
 									<div id="listExplain" class="prtext">
 										<h1>
 											이것이 MySQL이다<br>
@@ -216,7 +216,7 @@
 	
 								</div>
 								<div class="listB">
-									<a href="rentalpage/혼공.html"><img src="image/혼공.jfif" class="booklist"></a>
+									<a href="<c:url value='#'/>"><img src="image/혼공.jfif" class="booklist"></a>
 									<div id="listExplain" class="prtext">
 										<h1>
 											혼자 공부하는 시간의 힘<br>
@@ -228,7 +228,7 @@
 	
 								</div>
 								<div class="listB">
-									<a href="rentalpage/자바.html"><img src="image/자바.jfif" class="booklist"></a>
+									<a href="<c:url value='#'/>"><img src="image/자바.jfif" class="booklist"></a>
 									<div id="listExplain" class="prtext">
 										<h1>
 											자바의 정석<br>
