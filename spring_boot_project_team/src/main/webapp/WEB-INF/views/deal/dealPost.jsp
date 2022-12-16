@@ -40,11 +40,11 @@
 							${mv.coin}
 						</div>
 						<div>
-							<a href="<c:url value='/deal/dealpost'/>">빌렸던책</a><br><br>
+							<a href="<c:url value='/deal/dealpost' />">빌렸던책</a><br><br>
 							3
 						</div>
 					</th></tr>
-					<tr><th id="nav">진행상태</th></tr>
+					<tr><th id="nav">이렇게나 많이 읽었나?</th></tr>
 					<c:forEach var="bL" items="${borrowList}">
 					<tr>
 						<td>
@@ -58,11 +58,10 @@
 					 			<span style="font-weight:lighter; color:gray">출판사:${bL.bookPublish }</span><br>
 					 		</div>
 							<div>
-								<input type="submit" value="${bL.rentB}"><br>
+								
 				
-								<input type="submit" value="거래 완료"><br>
-									보증금:${bL.bookPrice } <br>
-									대여:${bL.rentP } 				
+								<button>거래 완료</button>
+									 				
 				</div>
 				
 					</td>
@@ -72,7 +71,6 @@
 					<tr><th id="lastdiv">
 					<div>${mv.lastWrite }</div>
 					</th></tr>
-					
 				</table>
 			 	
 			<!--  bottom -->         

@@ -33,6 +33,7 @@ public class MemberService implements IMemberService  {
 	// matches() : 평문과 암호문을 비교
 	return result;
 	}
+	
 
 	@Override
 	public void insertMember(MemberVO vo) {
@@ -45,4 +46,8 @@ public class MemberService implements IMemberService  {
 		
 		
 	}
+	
+	
+	
+
 }

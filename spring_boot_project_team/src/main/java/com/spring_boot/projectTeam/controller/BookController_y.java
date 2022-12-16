@@ -64,7 +64,7 @@ public class BookController_y {
 		String memId = (String) session.getAttribute("sid");
 		book.setMemId(memId);
 		vo.setMemId(memId);
-		borrow.setGiver(memId);
+		borrow.setMemId(memId);
 		
 		long timeNum = System.currentTimeMillis();
 		
