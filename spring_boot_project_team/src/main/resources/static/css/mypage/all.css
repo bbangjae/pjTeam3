@@ -179,4 +179,19 @@ a:hover{
     padding-right: 15%;
     padding-top: -50px;
 }
+/* 대여요청 */
+#requestOK{
+	width: 500px;
+    border: solid 3px rgb(228, 224, 220);
+    border-radius: 50px;
+    height: 210px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+#k12bhi3{
+	margin: 50px auto 20px auto;
+	color: orangered;
+	font-size: 20px;
+}
+
 

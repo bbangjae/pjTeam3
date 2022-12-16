@@ -113,23 +113,27 @@
 					</tr>
 				</table>
 				
-				<div id="requestOK">
-					<table border="1">
-						<tr>
-							<th>책 제목</th>
-			               	<th>요청자</th>
-			              	<th colspan="2"></th>
-						</tr>
-						<c:forEach var="book" items="${requestList }">
-				            <tr>
-								<td>${book.bookName }</td>
-				               	<td>${book.applicant }</td>
-				              	<td><a href="<c:url value="/request/accept/${book.bookId}/${book.applicant}"/>"><button>수락</button></a></td>
-				              	<td><a href="<c:url value="/request/refuse/${book.bookId}/${book.applicant}"/>"><button>거절</button></a></td>		               
-				            </tr>
-						</c:forEach>
-					</table>
-				</div>
+					<div id="requestOK">
+						<div id="k12bhi3">
+							대여 요청이 왔습니다.
+						</div>
+						<table border="1"  style="margin-bottom:100px; text-align:center;" >
+							<tr  style="font-size: 16px;">
+								<th>책 제목</th>
+				               	<th style="width:100px;">요청자</th>
+				              	<th colspan="2"></th>
+							</tr>
+							<c:forEach var="book" items="${requestList }">
+					            <tr>
+									<td>${book.bookName }</td>
+					               	<td style="width:100px;">${book.applicant }</td>
+					              	<td><a href="<c:url value="/request/accept/${book.bookId}/${book.applicant}"/>"><button>수락</button></a></td>
+					              	<td><a href="<c:url value="/request/refuse/${book.bookId}/${book.applicant}"/>"><button>거절</button></a></td>		               
+					            
+					            </tr>
+							</c:forEach>
+						</table >
+					</div>
 				<hr>
 <!-- 				<table border="1"> -->
 <%-- 					<c:forEach var="giver" items="${tradeGiver }"> --%>
