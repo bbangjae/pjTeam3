@@ -21,11 +21,11 @@
 			
 			<div id="mentimg">
 				<div id="mentimgdata">
-					<a href="<c:url value='/book/bookDetailView/데이터'/>" >
+					<a href="<c:url value='#'/>" >
 									<img src="image/데이터.jfif" id="mentbooklist"></a>
 				</div>
 				<div id="mentimgjava">
-					<a href="<c:url value='/book/bookDetailView/자바'/>">
+					<a href="<c:url value='#'/>">
 							<img src="image/자바.jfif" id="mentbooklist"></a>
 				</div>
 			</div>
@@ -84,7 +84,7 @@
 							</div>
 						</div>
 						<div id="bookslot1">
-							<a href="<c:url value='/book/bookDetailView/데이터'/>">
+							<a href="<c:url value='#'/>">
 							<img src="image/데이터.jfif" class="booklist"></a>
 							<div id="listExplain" class="prtext">
 								<h1>
