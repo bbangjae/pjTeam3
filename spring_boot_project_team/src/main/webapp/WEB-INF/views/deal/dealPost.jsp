@@ -44,7 +44,7 @@
 							3
 						</div>
 					</th></tr>
-					<tr><th id="nav">이렇게나 많이 읽었나?</th></tr>
+					<tr><th id="nav">거래완료 된 도서리스트</th></tr>
 					<c:forEach var="bL" items="${borrowList}">
 					<tr>
 						<td>
@@ -52,10 +52,10 @@
 								<a href="<c:url value='/book/bookDetailView/${bL.bookId}' />" ><img src="<c:url value='/image/${bL.bookImg}'/>"></a>
 							</div>
 							<div>
-								<span style="font-weight:bolder; line-height:2.5; ">상태:${bL.bookState}</span><br>
-							 	<span style="font-weight:lighter; color:gray">책이름:${bL.bookName} </span><br>
-					 			<span style="font-weight:lighter; color:gray">저자:${bL.bookAuthor}</span><br>
-					 			<span style="font-weight:lighter; color:gray">출판사:${bL.bookPublish }</span><br>
+								<span style="font-weight:bolder; line-height:2.5; ">상태:</span><span style="font-weight:bolder; font-size:20px;  font-family: arial; color:red; ">${bL.bookState}</span><br>
+							 	<span style="font-weight:lighter; color:gray;" >책이름:</span><span style="font-weight:lighter; font-size:14px;  font-family: arial; color:gray; ">${bL.bookName} </span><br>
+					 			<span style="font-weight:lighter; color:gray;" >저자:</span><span style="font-weight:lighter; font-size:14px; font-family: arial; color:gray; ">${bL.bookAuthor}</span><br>
+					 			<span style="font-weight:lighter; color:gray; ">출판사:</span><span style="font-weight:lighter; font-size:14px; font-family: arial; color:gray; ">${bL.bookPublish }</span><br>
 					 		</div>
 							<div>
 								

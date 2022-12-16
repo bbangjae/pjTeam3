@@ -79,6 +79,7 @@ public class BorrowVO_b {
 	public void setBookId(String bookId) {
 		this.bookId = bookId;
 	}
+	
 	public String getBookState() {
 		return bookState;
 	}

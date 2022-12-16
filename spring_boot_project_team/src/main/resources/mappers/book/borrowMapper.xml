@@ -24,7 +24,7 @@
  	 <select id="postList" parameterType="string" resultType="com.spring_boot.projectTeam.model.BorrowVO_b">
 		select w.bNo, w.bookState, w.bdate, b.bookName, b.bookAuthor, b.bookPublish, b.bookPrice, b.rentP, b.bookImg, b.bookId
 		From borrow w, bookinfo b
-		where w.memId=#{memId} and w.bookId=b.bookId and w.bookState=3 
+		where w.memId=#{memId} and w.bookId=b.bookId and w.bookState=3
 		order by w.bNo
 
 

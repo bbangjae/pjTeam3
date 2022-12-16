@@ -21,7 +21,7 @@
 			
 		<nav>
    		<article id="slideshowBF">
-   			<img src="/image/데이터.jfif" width=400px; height=530px;>
+   			<img src="/image/${bk.bookImg }" width=400px; height=530px;>
 
    		</article>
    	 
@@ -63,7 +63,7 @@
   				
   			</table>
   			<a href="<c:url value="/request/insert/${bk.bookId}"/>">대여 요청</a>
-  			</form >
+  			</form>
 		<br><hr>
   		</article> 	
    		

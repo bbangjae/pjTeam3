@@ -31,10 +31,10 @@ public class BorrowController {
 		ArrayList<BorrowVO_b> borrowList = service.borrowList(memId);
 		
 		for(int i=0; i<borrowList.size();i++) {
-			if((Integer.parseInt(borrowList.get(0).getBookState())==1)) {
+			if((Integer.parseInt(borrowList.get(i).getBookState())==1)) {
 				borrowList.get(i).setBookState("거래중");
 				borrowList.get(i).setRentB("책 주기 완료");
-			}else if((Integer.parseInt(borrowList.get(0).getBookState())==2)) {
+			}else if((Integer.parseInt(borrowList.get(i).getBookState())==2)) {
 				borrowList.get(i).setBookState("거래중");
 				borrowList.get(i).setRentB("책 받기 완료");
 			}
@@ -57,7 +57,7 @@ public class BorrowController {
 		ArrayList<BorrowVO_b> postList = service.postList(memId);
 		
 		for(int i=0; i<postList.size();i++) {
-			if((Integer.parseInt(postList.get(0).getBookState())==3)) {
+			if((Integer.parseInt(postList.get(i).getBookState())==3)) {
 				postList.get(i).setBookState("거래완료");
 				
 			}

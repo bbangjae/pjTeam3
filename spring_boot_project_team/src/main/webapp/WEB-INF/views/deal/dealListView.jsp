@@ -52,10 +52,10 @@
 								<a href="<c:url value='/book/bookDetailView/${bL.bookId}' />" ><img src="<c:url value='/image/${bL.bookImg}'/>"></a>
 							</div>
 							<div>
-								<span style="font-weight:bolder; line-height:2.5; ">상태:${bL.bookState}</span><br>
-							 	<span style="font-weight:lighter; color:gray">책이름:${bL.bookName} </span><br>
-					 			<span style="font-weight:lighter; color:gray">저자:${bL.bookAuthor}</span><br>
-					 			<span style="font-weight:lighter; color:gray">출판사:${bL.bookPublish }</span><br>
+								<span style="font-weight:bolder; line-height:2.5; ">상태:</span><span style="font-weight:bolder; font-size:20px;  font-family: arial; color:red; ">${bL.bookState}</span><br>
+							 	<span style="font-weight:lighter; color:gray;" >책이름:</span><span style="font-weight:lighter; font-size:14px;  font-family: arial; color:gray; ">${bL.bookName} </span><br>
+					 			<span style="font-weight:lighter; color:gray;" >저자:</span><span style="font-weight:lighter; font-size:14px; font-family: arial; color:gray; ">${bL.bookAuthor}</span><br>
+					 			<span style="font-weight:lighter; color:gray; ">출판사:</span><span style="font-weight:lighter; font-size:14px; font-family: arial; color:gray; ">${bL.bookPublish }</span><br>
 					 		</div>
 							<div>
 								<input type="submit" value="${bL.rentB}"><br>
