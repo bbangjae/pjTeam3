@@ -45,7 +45,7 @@
   	<hr>
   	<section>
   		<article id="contentBF">
-  		<form id="detailForm" name="detailForm" action="/deal/dealList/${bookId}">
+  		<form id="detailForm" name="detailForm" action="/deal/dealList">
   			<table id="cTable" >
   				<tr><th>${bk.bookName} </th></tr>
   				<tr><td class="c1">저자:${bk.bookAuthor } / 출판사: ${bk.bookPublish }</td></tr>
@@ -62,7 +62,7 @@
   				<tr><td class="c2"><a href="#" id="bookLike">좋아요</a>:${bv.bookLike}<a href="#" id="comment"> 채팅:${bv.bookComment}</a>조회:${bv.bookLook}</td></tr>
   				
   			</table>
-  			<button type="submit" >대여 요청</button>
+  			<a href="<c:url value="/request/insert/${bk.bookId}"/>">대여 요청</a>
   			</form>
 		<br><hr>
   		</article> 	

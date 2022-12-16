@@ -72,8 +72,13 @@
 	</delete>
 	
 	<insert id="borrowInsert" parameterType="hashmap">
-		INSERT INTO borrow (bookId, giver, giveNo, taker, takeNo)
-		VALUES (#{bookId},#{memId}, 0, #{applicant}, 0)
+		INSERT INTO borrow (bookId, memId, bookState)
+		VALUES (#{bookId},#{memId}, 1)
+	</insert>
+	
+	<insert id="borrowInsert2" parameterType="hashmap">
+		INSERT INTO borrow (bookId, memId, bookState)
+		VALUES (#{bookId},#{applicant}, 2)
 	</insert>
   
   	<delete id="requestallDelete" parameterType="string">

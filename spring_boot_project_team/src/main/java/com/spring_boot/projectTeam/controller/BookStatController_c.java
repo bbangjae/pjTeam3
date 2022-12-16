@@ -50,11 +50,11 @@ public class BookStatController_c {
 		model.addAttribute("requestList", requestList);
 		
 		// 거래 가능 목록 띄우기
-		ArrayList<BorrowVO> tradeGiver = service.tradeGiver(memId);
-		ArrayList<BorrowVO> tradeTaker = service.tradeTaker(memId);
-		
-		model.addAttribute("tradeGiver", tradeGiver);
-		model.addAttribute("tradeTaker", tradeTaker);
+//		ArrayList<BorrowVO> tradeGiver = service.tradeGiver(memId);
+//		ArrayList<BorrowVO> tradeTaker = service.tradeTaker(memId);
+//		
+//		model.addAttribute("tradeGiver", tradeGiver);
+//		model.addAttribute("tradeTaker", tradeTaker);
 		
 		return "/mypage/mypageform";
 	}
