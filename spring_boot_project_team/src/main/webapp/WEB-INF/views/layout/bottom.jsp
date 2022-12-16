@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+ <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <footer>
@@ -29,7 +29,7 @@
 				</section>
 				<hr>
 				<section id="footerment">
-					<div>
+					<div >
 						운영 시간: (평일) 09:00 ~ 18:00 (주말휴무) | 이용약관 | Copyright by 엉덩이대따무거움
 					</div>
 				</section>
