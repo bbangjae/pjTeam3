@@ -28,11 +28,20 @@
 	url:('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf');
 	
 }
-.bookSearchForm tr td a{
+.bookSearchForm tr td{
 	list-style:none;
 	text-decoration-line: none;
 	color: black !important;
 	font-family: 'GmarketSans';
 	url:('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf');
-	
+	font-weight: normal;
+}
+.bookSearchForm tr th a{
+	list-style:none;
+	text-decoration-line: none;
+	color: black !important;
+	font-family: 'GmarketSans';
+	url:('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf');
+	font-weight: inherit;
+    font-size: larger;
 }

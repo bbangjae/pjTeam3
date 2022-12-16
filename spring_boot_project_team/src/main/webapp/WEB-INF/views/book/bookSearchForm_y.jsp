@@ -17,7 +17,7 @@
 	<div id="wrap">
 
 		<c:import url="/WEB-INF/views/layout/top.jsp" />
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br>
 		<div>
 			<div>
 				<h3 id="title">도서 검색</h3>
@@ -44,7 +44,7 @@
 					               <td rowspan="5" id="imgBox" onClick="location.href='<c:url value='/book/bookDetailView/${bk.bookId}'/>'" style="cursor:pointer;">
 										<img alt="이미지가 없습니다" id="k1hvi4h" src="<c:url value='/image/${bk.bookImg}'/>" style="width:150px; height:200px;">
 					               </td>
-					               <td><a href="<c:url value='/book/bookDetailView/${bk.bookId}'/>">제목 :${bk.bookName }</a></td>
+					               <th><a href="<c:url value='/book/bookDetailView/${bk.bookId}'/>">제목 :${bk.bookName }</a></th>
 					            </tr>
 					            
 					            <tr onClick="location.href='<c:url value='/book/bookDetailView/${bk.bookId}'/>'" style="cursor:pointer;">

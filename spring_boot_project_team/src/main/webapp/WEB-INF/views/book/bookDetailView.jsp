@@ -63,11 +63,11 @@
   				
   			</table>
   			<a href="<c:url value="/request/insert/${bk.bookId}"/>">대여 요청</a>
-  			</form>
+  			</form >
 		<br><hr>
   		</article> 	
    		
-   		<article id="bookListBF">
+   		<article id="bookListBF"  style="margin-top:100px;">
    			<div id="listHeaderBF">
    				<h2>인기 대여
    				</h2>
