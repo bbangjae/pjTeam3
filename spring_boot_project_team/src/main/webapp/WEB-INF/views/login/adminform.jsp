@@ -27,13 +27,21 @@
     <div>
         <h2 id="adminh2">관리자 페이지 입니다.</h2>
     </div>
-    <div>
+    <div style="margin-top:120px; ">
         <h3>회원 정보 검색</h3>
-        <input type="text"> <button type="button">검색</button>    
-        <br><br>검색 하는거 테이블로 뜨게 정리 
+        <div id= "Searchbox">
+				<form id="bookSearchFrm">
+					<select id="type" name="type">
+						<option value="bookName">등록도서</option>
+						<option value="bookctg">회원명</option>
+					</select>
+					 <input type="text" name="keyword">
+					  <input type="submit" value="검색">
+				</form>
+			</div>
 
     </div>
-    <div>
+    <div style="margin-top:120px;margin-bottom:50px;">
         <h3 style="margin-top: 30px; color: red;;" >신고자 조회</h3>
         <table id="deinfo" border="1">
             <tr style="background-color: antiquewhite;">

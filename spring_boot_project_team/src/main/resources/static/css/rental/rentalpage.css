@@ -20,3 +20,19 @@
 .bookSearchForm{
 	margin:0 auto;
 }
+#bookAllList{
+	list-style:none;
+	text-decoration-line: none;
+	color: black !important;
+	font-family: 'GmarketSans';
+	url:('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf');
+	
+}
+.bookSearchForm tr td a{
+	list-style:none;
+	text-decoration-line: none;
+	color: black !important;
+	font-family: 'GmarketSans';
+	url:('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf');
+	
+}

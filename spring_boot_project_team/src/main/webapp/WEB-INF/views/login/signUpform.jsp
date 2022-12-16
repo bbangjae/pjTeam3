@@ -31,7 +31,7 @@
 	                    <input id="signup-id" name="memId" type="text" required></input>
 	                </span>
 	               	<span class="cnum-btn-wrap">
-	                	<button id="cnum-btn"onClick="idCheck()">ID중복체크</button>
+	                	<button id="cnum-btn" onClick="idCheck()">ID중복체크</button>
 	                </span>
 				</div>
                 <h3>비밀번호</h3>

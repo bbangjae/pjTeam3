@@ -41,21 +41,22 @@
 						<div id="rentalBookBox">
 							<table class="bookSearchForm">
 					            <tr>
-					               <td rowspan="5" id="imgBox">
-										<img alt="이미지가 없습니다" src="<c:url value='/image/${bk.bookImg}'/>" style="width:150px; height:200px;">
+					               <td rowspan="5" id="imgBox" onClick="location.href='<c:url value='/book/bookDetailView/${bk.bookId}'/>'" style="cursor:pointer;">
+										<img alt="이미지가 없습니다" id="k1hvi4h" src="<c:url value='/image/${bk.bookImg}'/>" style="width:150px; height:200px;">
 					               </td>
 					               <td><a href="<c:url value='/book/bookDetailView/${bk.bookId}'/>">제목 :${bk.bookName }</a></td>
 					            </tr>
-					            <tr>
+					            
+					            <tr onClick="location.href='<c:url value='/book/bookDetailView/${bk.bookId}'/>'" style="cursor:pointer;">
 					                <td>저자 / 출편사 :${bk.bookAuthor } / ${bk.bookPublish }</td>             
 					            </tr>
-					            <tr>
+					            <tr onClick="location.href='<c:url value='/book/bookDetailView/${bk.bookId}'/>'" style="cursor:pointer;">
 					                <td>원가 / 대여료 : ${bk.bookPrice } / ${bk.rentP }</td>             
-					            </tr>
-					            <tr>
+					            </tr >
+					            <tr onClick="location.href='<c:url value='/book/bookDetailView/${bk.bookId}'/>'" style="cursor:pointer;">
 					                <td>카테고리 : ${bk.bookctg }</td>             
 					            </tr>
-					            <tr>
+					            <tr onClick="location.href='<c:url value='/book/bookDetailView/${bk.bookId}'/>'" style="cursor:pointer;">
 					                <td>${bk.bookDis }</td>             
 					            </tr>
 				            </table>
@@ -66,7 +67,7 @@
 			</div>
 		<!-- 검색 결과 출력  -->
 		<div id="searchResultBox"></div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br>
 		<c:import url="/WEB-INF/views/layout/bottom.jsp" />
 	</div>
 </body>

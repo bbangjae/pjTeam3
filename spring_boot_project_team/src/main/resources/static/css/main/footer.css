@@ -54,6 +54,9 @@
 	line-height:40px;
 	text-decoration-line: none;
 	color: black !important;
+	font-family: 'GmarketSans';
+	url:('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf');
+	
 	
 }
 #botttomMenuItem1 ul li, #botttomMenuItem2 ul li{
@@ -63,6 +66,9 @@
 }
 #botttomMenuItem3{
 	margin-left:40%;
+	font-family: 'GmarketSans';
+	url:('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf');
+	
 }
 #k2ml2{
 	margin-top: 20px;
