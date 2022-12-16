@@ -19,6 +19,8 @@ public interface IBookStatDAO_c {
 	public void borrowInsert(HashMap<String, Object> map);
 	public void borrowInsert2(HashMap<String, Object> map);
 	public void requestDelete(HashMap<String, Object> map);
+	public void bookUpdate(HashMap<String, Object> map);
+	public void myBookUpdate(HashMap<String, Object> map);
 	public void requestallDelete(String bookId);
 	public ArrayList<BorrowVO> tradeGiver(String giver);
 	public ArrayList<BorrowVO> tradeTaker(String taker);
