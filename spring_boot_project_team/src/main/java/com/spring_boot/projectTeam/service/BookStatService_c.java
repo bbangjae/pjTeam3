@@ -86,6 +86,8 @@ public class BookStatService_c implements IBookStatService_c {
 		dao.borrowInsert(map);
 		dao.borrowInsert2(map);
 		dao.requestallDelete(bookId);
+		dao.bookUpdate(map);
+		dao.myBookUpdate(map);
 	}
 
 

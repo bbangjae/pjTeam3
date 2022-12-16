@@ -99,4 +99,14 @@
 		ON borrow.taker=#{memId} AND borrow.bookId=bookInfo.bookId
 	</select>
 	
+	<update id="bookUpdate" parameterType="hashmap">
+  		UPDATE mybook
+  		SET stats=1
+  	    WHERE bookId=#{bookId}
+  </update>
+  <insert id="myBookUpdate" parameterType="hashmap">
+		INSERT INTO mybook (bookId, memId, stats)
+		VALUES (#{bookId},#{applicant}, 2)
+	</insert>
+	
 </mapper>
