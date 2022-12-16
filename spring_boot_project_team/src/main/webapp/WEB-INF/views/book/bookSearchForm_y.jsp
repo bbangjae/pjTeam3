@@ -42,7 +42,7 @@
 							<table class="bookSearchForm">
 					            <tr>
 					               <td rowspan="5" id="imgBox">
-										<img alt="이미지가 없습니다" src="<c:url value='/images/${bk.bookImg}'/>" style="width:150px; height:200px;">
+										<img alt="이미지가 없습니다" src="<c:url value='/image/${bk.bookImg}'/>" style="width:150px; height:200px;">
 					               </td>
 					               <td><a href="<c:url value='/book/bookDetailView/${bk.bookId}'/>">제목 :${bk.bookName }</a></td>
 					            </tr>
