@@ -2,7 +2,10 @@
 
 @font-face {
 }	
-
+hr{
+	margin:0 400px 0 400px;
+	width:1280px;
+}
 #title {
     font-family:'GmarketSans';
     font-weight: 10;
